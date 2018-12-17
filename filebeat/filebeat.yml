@@ -1,0 +1,7 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /jmeter/results/*.jtl
+output.logstash:
+  enabled: true
+  hosts: ["x.x.x.x:5044"]
