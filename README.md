@@ -1,6 +1,4 @@
 **********
-docker run --volume="$(pwd)/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml" --volume="$(pwd)/filebeat/results:/jmeter/results" docker.elastic.co/beats/filebeat:6.5.3
-**********
 on linux:
 modify /etc/sysctl.conf, and the following
     vm.max_map_count=262144
